@@ -8,7 +8,7 @@ export default function HowItWorksSection() {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-title-light dark:text-title-dark">
               How It Works
             </h2>
             <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
@@ -27,7 +27,7 @@ export default function HowItWorksSection() {
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary text-primary-foreground">
                 1
               </div>
-              <h3 className="text-xl font-bold">Browse Properties</h3>
+              <h3 className="text-xl font-bold text-title-light dark:text-title-dark">Browse Properties</h3>
               <p className="text-gray-500 dark:text-gray-400">
                 Explore our curated collection of properties with immersive 3D tours.
               </p>
@@ -43,7 +43,7 @@ export default function HowItWorksSection() {
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary text-primary-foreground">
                 2
               </div>
-              <h3 className="text-xl font-bold">Virtual Tour</h3>
+              <h3 className="text-xl font-bold text-title-light dark:text-title-dark">Take Virtual Tour</h3>
               <p className="text-gray-500 dark:text-gray-400">
                 Take a detailed virtual tour of your chosen property from anywhere.
               </p>
@@ -59,7 +59,7 @@ export default function HowItWorksSection() {
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary text-primary-foreground">
                 3
               </div>
-              <h3 className="text-xl font-bold">Book Instantly</h3>
+              <h3 className="text-xl font-bold text-title-light dark:text-title-dark">Book Instantly</h3>
               <p className="text-gray-500 dark:text-gray-400">
                 Secure your booking with our smart, AI-powered pricing system.
               </p>

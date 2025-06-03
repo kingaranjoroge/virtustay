@@ -33,7 +33,7 @@ export default function TestimonialsSection() {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-title-light dark:text-title-dark">
               What Our Users Say
             </h2>
             <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
@@ -56,7 +56,7 @@ export default function TestimonialsSection() {
                     <AvatarFallback>{testimonial.initials}</AvatarFallback>
                   </Avatar>
                   <div className="text-left">
-                    <h3 className="font-bold">{testimonial.author}</h3>
+                    <h3 className="font-bold text-title-light dark:text-title-dark">{testimonial.author}</h3>
                     <p className="text-sm text-muted-foreground">{testimonial.role}</p>
                   </div>
                 </div>

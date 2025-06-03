@@ -13,6 +13,7 @@ import {
 } from "@/components/ui/navigation-menu"
 import { useState } from "react"
 import { Menu, X } from "lucide-react"
+import { ThemeToggle } from "@/components/theme-toggle"
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -23,7 +24,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <span className="text-xl font-bold">VirtuStay</span>
+            <span className="text-2xl font-bold text-title-light dark:text-title-dark">VirtuStay</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -97,10 +98,11 @@ const Navbar = () => {
 
             {/* Auth Buttons */}
             <div className="flex items-center space-x-4">
+              <ThemeToggle />
               <Button variant="ghost" asChild>
                 <Link href="/login">Log in</Link>
               </Button>
-              <Button asChild>
+              <Button className="bg-button-light hover:bg-button-light-hover dark:bg-button-dark dark:hover:bg-button-dark-hover" asChild>
                 <Link href="/signup">Sign up</Link>
               </Button>
             </div>
@@ -141,6 +143,7 @@ const Navbar = () => {
               About
             </Link>
             <div className="px-4 space-y-2">
+              <ThemeToggle />
               <Button variant="ghost" className="w-full justify-start" asChild>
                 <Link href="/login">Log in</Link>
               </Button>

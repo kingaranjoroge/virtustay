@@ -15,7 +15,7 @@ export default function CTASection() {
           className="flex flex-col items-center justify-center space-y-4 text-center"
         >
           <div className="space-y-2">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-title-light dark:text-title-dark">
               Ready to Transform Your Property Experience?
             </h2>
             <p className="mx-auto max-w-[600px] text-primary-foreground/80 md:text-xl">
@@ -23,7 +23,7 @@ export default function CTASection() {
             </p>
           </div>
           <div className="flex flex-col gap-2 min-[400px]:flex-row">
-            <Button size="lg" variant="secondary">
+            <Button size="lg" variant="secondary" className="bg-button-light hover:bg-button-light-hover dark:bg-button-dark dark:hover:bg-button-dark-hover">
               Get Started
             </Button>
             <Button size="lg" variant="outline" className="bg-transparent">

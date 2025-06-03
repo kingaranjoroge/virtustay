@@ -14,8 +14,8 @@ export default function HeroSection() {
             transition={{ duration: 0.5 }}
             className="space-y-2"
           >
-            <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl">
-              Experience Properties in a New Dimension
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl text-title-light dark:text-title-dark">
+              Experience Properties in a Whole New Way
             </h1>
             <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
               Virtual tours, smart booking, and AI-powered insights for the modern property experience.
@@ -27,7 +27,7 @@ export default function HeroSection() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="space-x-4"
           >
-            <Button size="lg">Get Started</Button>
+            <Button size="lg" className="bg-button-light hover:bg-button-light-hover dark:bg-button-dark dark:hover:bg-button-dark-hover">Get Started</Button>
             <Button size="lg" variant="outline">Learn More</Button>
           </motion.div>
         </div>

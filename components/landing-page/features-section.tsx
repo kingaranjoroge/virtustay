@@ -8,8 +8,8 @@ export default function FeaturesSection() {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-              Powerful Features
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-title-light dark:text-title-dark">
+              Powerful Features for Modern Property Viewing
             </h2>
             <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
               Everything you need to manage and experience properties in the digital age.
@@ -45,7 +45,7 @@ export default function FeaturesSection() {
                   />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold">3D Virtual Tours</h3>
+              <h3 className="text-xl font-bold text-title-light dark:text-title-dark">Virtual Tours</h3>
               <p className="text-gray-500 dark:text-gray-400">
                 Immersive 3D tours that bring properties to life.
               </p>
@@ -72,7 +72,7 @@ export default function FeaturesSection() {
                   />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold">AI-Powered Pricing</h3>
+              <h3 className="text-xl font-bold text-title-light dark:text-title-dark">AI-Powered Pricing</h3>
               <p className="text-gray-500 dark:text-gray-400">
                 Smart pricing algorithms for optimal rates.
               </p>
@@ -99,7 +99,7 @@ export default function FeaturesSection() {
                   />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold">Smart Booking</h3>
+              <h3 className="text-xl font-bold text-title-light dark:text-title-dark">Smart Booking</h3>
               <p className="text-gray-500 dark:text-gray-400">
                 Seamless booking experience with instant confirmations.
               </p>

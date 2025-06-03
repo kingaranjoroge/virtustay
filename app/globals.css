@@ -11,6 +11,12 @@
 
     --foreground: 0 0% 3.9%;
 
+    --title-light: 221 69% 39%;
+
+    --button-light: 221 69% 39%;
+
+    --button-light-hover: 221 69% 45%;
+
     --card: 0 0% 100%;
 
     --card-foreground: 0 0% 3.9%;
@@ -62,6 +68,12 @@
     --background: 0 0% 3.9%;
 
     --foreground: 0 0% 98%;
+
+    --title-dark: 213 94% 60%;
+
+    --button-dark: 213 94% 60%;
+
+    --button-dark-hover: 213 94% 85%;
 
     --card: 0 0% 3.9%;
 

@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <h3 className="text-lg font-bold">VirtuStay</h3>
+            <h3 className="text-lg font-bold text-title-light dark:text-title-dark">VirtuStay</h3>
             <p className="text-sm text-muted-foreground">
               Transforming property viewing and booking with cutting-edge technology.
             </p>
@@ -58,7 +58,7 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div className="space-y-4">
-            <h3 className="text-lg font-bold">Quick Links</h3>
+            <h3 className="text-lg font-bold text-title-light dark:text-title-dark">Quick Links</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="#" className="text-sm text-muted-foreground hover:text-foreground">
@@ -85,7 +85,7 @@ export default function Footer() {
 
           {/* Support */}
           <div className="space-y-4">
-            <h3 className="text-lg font-bold">Support</h3>
+            <h3 className="text-lg font-bold text-title-light dark:text-title-dark">Support</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="#" className="text-sm text-muted-foreground hover:text-foreground">
@@ -112,7 +112,7 @@ export default function Footer() {
 
           {/* Newsletter */}
           <div className="space-y-4">
-            <h3 className="text-lg font-bold">Stay Updated</h3>
+            <h3 className="text-lg font-bold text-title-light dark:text-title-dark">Stay Updated</h3>
             <p className="text-sm text-muted-foreground">
               Subscribe to our newsletter for the latest updates and offers.
             </p>
@@ -122,7 +122,7 @@ export default function Footer() {
                 placeholder="Enter your email"
                 className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
               />
-              <Button type="submit">Subscribe</Button>
+              <Button type="submit" className="bg-button-light hover:bg-button-light-hover dark:bg-button-dark dark:hover:bg-button-dark-hover">Subscribe</Button>
             </div>
           </div>
         </div>

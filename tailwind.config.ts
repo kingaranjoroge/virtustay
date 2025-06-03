@@ -12,6 +12,16 @@ export default {
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
+  			title: {
+  				light: 'hsl(var(--title-light))',
+  				dark: 'hsl(var(--title-dark))'
+  			},
+  			button: {
+  				light: 'hsl(var(--button-light))',
+  				'light-hover': 'hsl(var(--button-light-hover))',
+  				dark: 'hsl(var(--button-dark))',
+  				'dark-hover': 'hsl(var(--button-dark-hover))'
+  			},
   			card: {
   				DEFAULT: 'hsl(var(--card))',
   				foreground: 'hsl(var(--card-foreground))'
