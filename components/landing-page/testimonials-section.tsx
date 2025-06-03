@@ -37,7 +37,7 @@ export default function TestimonialsSection() {
               What Our Users Say
             </h2>
             <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-              Don't just take our word for it. Here's what our users have to say about their experience.
+              Don&apos;t just take our word for it. Here&apos;s what our users have to say about their experience.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-5xl">
